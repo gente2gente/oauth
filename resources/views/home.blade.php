@@ -9,6 +9,8 @@
 
                 <div class="panel-body">
                     You are logged in!
+
+                <passport-clients></passport-clients>
                 </div>
             </div>
         </div>
