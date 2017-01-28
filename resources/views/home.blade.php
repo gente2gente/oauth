@@ -9,9 +9,11 @@
 
                 <div class="panel-body">
                     You are logged in!
+                </div>
 
                 <passport-clients></passport-clients>
-                </div>
+                <passport-authorized-clients></passport-authorized-clients>
+                <passport-personal-access-tokens></passport-personal-access-tokens>
             </div>
         </div>
     </div>

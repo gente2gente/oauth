@@ -254,7 +254,8 @@
                             if (typeof response.data === 'object') {
                                 this.form.errors = _.flatten(_.toArray(response.data));
                             } else {
-                                this.form.errors = ['Something went wrong. Please try again.'];
+                                //this.form.errors = ['Something went wrong. Please try again.'];
+                                this.form.errors = response.data;
                             }
                         });
             },

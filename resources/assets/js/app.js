@@ -31,6 +31,12 @@ Vue.component(
     require('./components/passport/PersonalAccessTokens.vue')
 );
 
+Vue.component(
+    'modal-box',
+    require('./components/modal-box.vue')
+);
+
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+
 });
